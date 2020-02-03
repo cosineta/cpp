@@ -4,7 +4,7 @@ using namespace std;
 class Base {
 public:
 	int k;
-	Base(int n):k(n) { }
+	Base(int n):k(n) { printf("what?\n");}
 };
 
 class Big
@@ -12,6 +12,8 @@ class Big
 public:
 	int v;
 	Base b;
+	void tt();
+	void tt(){printf ("23333\n");}
 	Big(int x):v(x),b(x) {} 
 	
 	// 在此处补充你的代码 
